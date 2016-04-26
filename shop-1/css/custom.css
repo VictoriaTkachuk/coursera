@@ -16,7 +16,9 @@ In the starting CSS document, styles are based on custom classes not in Bootstra
 	text-align: center;
 	padding-top: 1em;
 }
-
+.tagline-text {
+	font-size: 0.7em;
+}
 /* footer styling for all resolutions */
 
 .siteinfo {
@@ -71,6 +73,30 @@ In the starting CSS document, styles are based on custom classes not in Bootstra
 	clear: both;
 } 
 
+.modal-body img.img-responsive {
+	margin-bottom: 40px;
+}
+
+
+/*index.html*/
+
+.panel-primary .panel-heading {
+	background: #990000;
+	border:1px solid #330000;
+}
+
+.panel-primary {
+	border:1px solid #330000;
+}
+.carousel-indicators li {
+	background-color: #990000;
+	border-color: black;
+}
+
+.carousel-indicators li.active {
+	background-color: black;
+	border-color: #990000;
+}
 /* Small devices (tablets, 768px and up) 
 
 Greater than 768 px, push logo left and tagline right. Alter 
